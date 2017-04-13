@@ -1,0 +1,23 @@
+In fonts directory a new font is generated 'finPlate.ttf'
+
+it is from BWofromPlateiMovedrekkariKirjaimistoMusta300dpi.svg
+from which a bw image is saved by gimp as
+BWofromPlateiMovedrekkariKirjaimistoMusta300dpi.png
+
+from there 
+glyphtracer BWofromPlateiMovedrekkariKirjaimistoMusta300dpi.png
+can generate BWofromPlateiMovedrekkariKirjaimistoMusta300dpi.sfd
+see
+http://cangjie.info/blog/?p=324
+
+whis is read in by fontforge
+which can finally save finPlate.ttf (use true type)
+
+
+------------------
+Now, in ~/PycharmProjects/deep-anpr
+./font has only one .ttf file (finPlate.ttf)
+
+./bgs should have
+untarred SUN397.tar.gz in it
+
